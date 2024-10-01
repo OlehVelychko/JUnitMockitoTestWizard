@@ -2,7 +2,7 @@ package AliceCompany;
 
 import java.sql.*;
 
-public class DBConnector {
+public class ConnectorDBMySQL {
     public static void main(String[] args) throws SQLException {
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javarush_sql",
                 "root", "AL5432al5432");
